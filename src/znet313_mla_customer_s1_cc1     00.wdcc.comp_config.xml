@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OIF_COMPONENT" ConfId="ZNET313_MLA_CUSTOMER_S1_CC1" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OIF_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="ACTION" SimpleFormat="true"/>
+     <Node Name="AMC_BINDING" SimpleFormat="true"/>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true"/>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="CONTENT_AREA" SimpleFormat="true"/>
+     <Node Name="INITIAL_SCREEN" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="INITIAL_SCREEN_UIBB" SimpleFormat="true"/>
+       <Node Name="INIT_EXPLANATION" SimpleFormat="true"/>
+       <Node Name="INIT_SCREEN_TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="CREATE_BUTTON" SimpleFormat="true"/>
+         <Node Name="LOAD_DRAFT_BUTTON" SimpleFormat="true"/>
+         <Node Name="OTHER_FUNCTIONS_I" SimpleFormat="true"/>
+         <Node Name="REDO_BUTTON" SimpleFormat="true"/>
+         <Node Name="SAVE_DRAFT_BUTTON" SimpleFormat="true"/>
+         <Node Name="START_BUTTON" SimpleFormat="true"/>
+         <Node Name="UNDO_BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="VARIANT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">VARIANT_1</ID>
+       <NAME Transl="true">1</NAME>
+       <Node Name="CONF_STEP_VIEW" SimpleFormat="true"/>
+       <Node Name="CONF_STEP_VIEW_ATTR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true"/>
+       </Node>
+       <Node Name="MAINVIEW" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">HAUPTSICHT_1</ID>
+         <INDEX>1</INDEX>
+         <NAME Transl="true">5</NAME>
+         <Node Name="SUBVIEW" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ID Final="5 ">UNTERSICHT_1_1</ID>
+           <INDEX>1</INDEX>
+           <NAME Transl="true">3</NAME>
+           <Node Name="EXPLANATION" SimpleFormat="true"/>
+           <Node Name="UIBB" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_00505680FE051EDAA2D52452F9EC57EF</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>ZNET313_MLA_CUSTOMER_S1</COMPONENT>
+             <INTERFACE_VIEW>CUSTOMER_WINDOW</INTERFACE_VIEW>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ID Final="5 ">HAUPTSICHT_2</ID>
+         <NAME Transl="true">6</NAME>
+         <INDEX>2</INDEX>
+         <Node Name="SUBVIEW" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ID Final="5 ">UNTERSICHT_2_1</ID>
+           <NAME Transl="true">7</NAME>
+           <INDEX>1</INDEX>
+           <Node Name="EXPLANATION" SimpleFormat="true"/>
+           <Node Name="UIBB" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_00505680FE051EDAA2D53C8E6BC5F804</FPM_PRIMARY_ATTRIBUTE>
+             <INTERFACE_VIEW>BOOKINGS_N_WINDOW</INTERFACE_VIEW>
+             <INDEX>1</INDEX>
+             <COMPONENT>ZNET313_MLA_CUSTOMER_S1</COMPONENT>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <ID Final="5 ">UNTERSICHT_2_2</ID>
+           <NAME Transl="true">8</NAME>
+           <INDEX>2</INDEX>
+           <Node Name="EXPLANATION" SimpleFormat="true"/>
+           <Node Name="UIBB" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_00505680FE051EDAA2D53D2521445804</FPM_PRIMARY_ATTRIBUTE>
+             <INTERFACE_VIEW>BOOKINGS_C_WINDOW</INTERFACE_VIEW>
+             <INDEX>1</INDEX>
+             <COMPONENT>ZNET313_MLA_CUSTOMER_S1</COMPONENT>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <IS_CONFIGURED>X</IS_CONFIGURED>
+         <Node Name="ACTIVATION_FUNCTIONS" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_00505680FE051EDAA2D52452F9EDD7EF</FPM_PRIMARY_ATTRIBUTE>
+           <IS_CONFIGURED>X</IS_CONFIGURED>
+           <LABEL Transl="true">4</LABEL>
+           <EVENT_ID>FPM_SAVE</EVENT_ID>
+           <VISIBILITY>02</VISIBILITY>
+           <INDEX>1</INDEX>
+          </Item>
+         </Node>
+         <Node Name="ALTERNATE_FUNCTIONS" SimpleFormat="true"/>
+         <Node Name="CHECK" SimpleFormat="true"/>
+         <Node Name="CLOSE" SimpleFormat="true"/>
+         <Node Name="DELETE_OBJECT" SimpleFormat="true"/>
+         <Node Name="EDIT" SimpleFormat="true"/>
+         <Node Name="LOAD_DRAFT" SimpleFormat="true"/>
+         <Node Name="NEW" SimpleFormat="true"/>
+         <Node Name="NEXT_OBJECT" SimpleFormat="true"/>
+         <Node Name="OTHER_FUNCTIONS" SimpleFormat="true"/>
+         <Node Name="PREVIOUS_OBJECT" SimpleFormat="true"/>
+         <Node Name="PRINT" SimpleFormat="true"/>
+         <Node Name="PRINT_PREVIEW" SimpleFormat="true"/>
+         <Node Name="READ_ONLY" SimpleFormat="true"/>
+         <Node Name="REDO" SimpleFormat="true"/>
+         <Node Name="REFRESH" SimpleFormat="true"/>
+         <Node Name="RELATED_LINKS" SimpleFormat="true"/>
+         <Node Name="SAVE_AS" SimpleFormat="true"/>
+         <Node Name="SAVE_DRAFT" SimpleFormat="true"/>
+         <Node Name="SEND" SimpleFormat="true"/>
+         <Node Name="START_OVER" SimpleFormat="true"/>
+         <Node Name="UNDO" SimpleFormat="true"/>
+         <Node Name="YOU_CAN_ALSO" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="WIRE_MODEL" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="WIRE" SimpleFormat="true"/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>
